@@ -11,7 +11,7 @@ st.title("📊 Marketing A/B Test: Ad vs PSA")
 st.write("Analyzing whether showing ads (vs a public service announcement) increases conversion rates.")
 
 # Load data
-df = pd.read_csv(r"C:\Users\chithra\OneDrive\Desktop\ab_testing_project\data\marketing_AB.csv")
+df = pd.read_csv("data/marketing_AB.csv")
 
 # Sidebar filter
 st.sidebar.header("Filters")
